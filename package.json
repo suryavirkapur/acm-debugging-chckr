@@ -1,0 +1,19 @@
+{
+  "name": "acm-debugging-chckr",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@ai-sdk/anthropic": "^1.0.2",
+    "@anthropic-ai/sdk": "^0.32.1",
+    "ai": "^4.0.11",
+    "dotenv": "^16.4.7",
+    "octokit": "^4.0.2",
+    "zod": "^3.23.8"
+  }
+}
